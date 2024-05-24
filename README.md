@@ -26,7 +26,7 @@ Run a serving.
 # Start a server.
 torchrun --nproc-per-node 1 \
     tools/server.py \
-    --model-id /data/zhangtaoshan/models/llama2-7b
+    --model-id /data/models/llama2-7b
 
 # Client a server.
 curl 127.0.0.1:8000/generate \
